@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./assets/logo-nav.png" alt="" />
+      </div>
+      <ul class="menu2">
+        <li><a href="#">Features &#x25BC;</a>
+           <div class="drop_down">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Plans</a></li>
+                <!-- <li><a href="#">Articles</a></li> -->
+                <li><a href="#">Contact</a></li>
+            </ul>
+           </div>
+        </li>
+        <li><a href="#">Use cases &#x25BC; </a>
+            <div class="drop_down">
+                <ul>
+                    <li><a href="#">Demo</a></li>
+                    <li><a href="#">Test</a></li>
+                    <li><a href="#">Test2</a></li>
+                    <!-- <li><a href="#">Demo</a></li> -->
+                </ul>
+               </div>
+        </li>
+        
+        <li><a href="#">Resources &#x25BC; </a>
+            <div class="drop_down">
+                <ul>
+                    <li><a href="#">Cycle-1</a></li>
+                    <li><a href="#">Cycle-2</a></li>
+                    <li><a href="#">Cycle-3</a></li>
+                    <!-- <li><a href="#">Cycle-4</a></li> -->
+                </ul>
+               </div>  
+        </li>
+        <li><a href="#">Download &#x25BC;</a>
+            
+            <div class="drop_down">
+                <ul>
+                    <li><a href="#">Srvr1</a></li>
+                    <li><a href="#">Srvr2</a></li>
+                    <li><a href="#">Srvr3</a></li>
+                    <li><a href="#">Srvr4</a></li>
+                </ul>
+               </div> 
+
+
+        </li>
+      </ul>
+       <ul class="menu3">
+        <li><a href="#">Templates</a></li>
+        <li><a href="#">Pricing</a></li>
+       </ul>
+        
+      
+      <div class="buttons">
+        <button class="button1">Book Demo</button>
+        <button class="button2" onclick="change()"> Sign IN </button> 
+      <div id="popup"  class="container"> 
+          <div class="popup-box"> 
+              <form class="form-container"> 
+                  <label class="form-label" 
+                         for="name"> 
+                    Username: 
+                    </label> 
+                  <input class="form-input" type="text" 
+                         placeholder="Enter Your Username" 
+                         id="name" name="name" required> 
+    
+                  <label class="form-label" for="email">Email:</label> 
+                  <input class="form-input"
+                         type="email" 
+                         placeholder="Enter Your Email"
+                         id="email" 
+                         name="email" required> 
+    
+                  <button class="btn-submit" 
+                          type="submit"> 
+                    Submit 
+                    </button> 
+              </form> 
+    
+              <button class="btn-close" 
+                      onclick="change()"> 
+                Close 
+                </button> 
+          </div> 
+      </div>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+   <!-- content section -->
+    <section class="section1">
+      <div class="content">
+        <h1>Run more engaging sessions.<br>
+            Get better outcomes..</h1>
+      </div>
+      <div class="content2">
+        <h3>Effortlessly plan, run and recap super engaging-workshops,trainings and <br>
+            meetings with Butters built-in agenda planner,integrated collaberations and <br>
+            and auto-generated recaps-all in one place. </h3>
+      </div>
+      <div class="buttons"> 
+        <button class="first">Sign Up with Google</button>
+        <button class="second">Sign up for free</button>
+      </div>
+
+    </section>
+    <section class="section2">
+      <div class="video">
+        <video src="./assets/big_buck_bunny_720p_1mb.mp4" width="800px" controls loop autoplay></video>
+      </div>
+    </section>
+   <!-- marqueue -->
+   <section class="section3">
+    <div class="marq">
+      <marquee behavior="scroll" direction="left">
+        <img src="./assets/62bb1b7e74b165877f5148ab_62bac61d70034b8b9971f738_Nivea.svg.png" width="199px" height="112px">
+        <img src="./assets/62bb1b7e9579da340dfa51e9_62bac61d70034b4d5b71f736_Gong.svg.png" width="174px" height="112px">
+        <img src="./assets/62bb1b7eaab9ef6029e54e65_62bac61d70034b007271f732_Miro.svg.png" width="230px" height="112px">
+        <img src="./assets/62bb1b7ef04e59081b8b6b7d_62bac61d70034b08ca71f73b_Farfetch.svg.png" width="234px" height="112px">
+        <img src="./assets/62bb1b7e74b165877f5148ab_62bac61d70034b8b9971f738_Nivea.svg.png" width="199px" height="112px">
+        <img src="./assets/62bb1b7e9579da340dfa51e9_62bac61d70034b4d5b71f736_Gong.svg.png" width="174px" height="112px">
+        </marquee>
+    </div>
+   </section>
+
+   <section class="section4">
+    <div class="content3">
+      <h2><b>All your team's facilitation at one place </b><br></h2>
+      <p class="para">
+      Stop hoisting snoozefests.Start collaberating effectively <br>
+      Butter brings structure </p>, <h3 style="background-color: yellow;"">energy and joy</h3>
+      <p class="para"> to your meetings <br>
+      workshops and training sessions... </p>
+    </div>
+   </section>
+
+   <!-- Card--1 -->
+  
+   <section class="section5">
+      <div class="two">
+          <h2>Plan</h2>
+          <div id="cards">
+             <img src="./assets/img1.png" alt="" class="img1">
+             <img src="./assets/img2.png" alt="" class="img2">
+             <img src="./assets/img3.png" alt="" class="img3">
+          </div> 
+          <div class="para1">
+            <h3>Prepare Sessions that practically run themselves</h3>
+            <p>Structured decision leads to better outcomes.Set up the perfect flow with a time boxed-agenda,pre-loaded tools and a reusable team library </p>
+           <button>Learn More</button>
+          </div> 
+
+      </div>
+
+   </section>
+
+   <!-- card-2 -->
+
+   <section class="section6">
+    <div class="three">
+        <h2>Run</h2>
+        <div class="para2">
+          <h3>Bump up the Energy</h3>
+          <p>Say GoodBye to meeting fatigue.Set up the perfect flow with a time boxed-agenda,pre-loaded tools and a reusable team library </p>
+         <button>show me the energy</button>
+
+         <div class="sub3">
+          <img src="./assets/card3.png" alt="" class="c2">
+          <img src="./assets/logo1.png" alt="" class="logo1">
+          <img src="./assets/logo2.png" alt=""  class="logo2">
+          <img src="./assets/logo3.png" alt="" class="logo3">
+         </div>
+
+        </div> 
+        <div class="sec-card">
+          <img src="./assets/img4.png" alt="">
+          <img src="./assets/music.png" alt="" class="music">
+          <img src="./assets/Group.png" alt="" class="claps">
+          <img src="./assets/SampleGIFImage_40kbmb.gif" alt="" class="gif">
+          <h3 class="s6">All your favourite facilitation tools,minus all the tabs</h3>
+          <p class="para4"> stop judging countless apps and tools keeps everyone focused on one window and one outcome, access polls,flashcards,videos and music </p> 
+          <button class="bt1">See all Integrations</button>        
+        </div>
+
+    </div>
+
+ </section>
+
+  <!-- card 3 -->
+
+ <section class="section7">
+    <div class="recap">
+        <h2 id="rotate1" onclick="rotate1();" class="normal1">Recap</h2>
+        <div class="para02">
+          <h3>Dont forget your takeaways</h3>
+          <p>Summarize your sessions and capture outcomes in seconds.Access and share your recordings personal notes, chat and logs and poll requests </p>
+         <button>Take a look</button>
+        </div>
+        <div class="re-card">
+          <img src="./assets/card4.png" alt="" class="c4">
+          <img src="./assets/logo4.png" alt="" class="log4">
+          <img src="./assets/logo5.png" alt="" class="log5">
+          <img src="./assets/logo6.png" alt="" class="log6">
+        </div>
+    </div>    
+
+ </section>
+    
+<section class="section8">
+  <div class="colab">
+    <h2 id="rotate" onclick="rotate();" class="normal">Collaborate</h2>
+      <div class="collaborate">
+        <img src="./assets/card5.png" alt="" class="c5">
+        <img src="./assets/cardImg.png" alt="" class="cimg">
+        <img src="./assets/av1.png" alt="" class="lg1">
+        <img src="./assets/av2.png" alt="" class="lg2">
+        <img src="./assets/av3.png" alt="" class="lg3">
+        <img src="./assets/av4.png" alt="" class="lg4">
+        <img src="./assets/av6.png" alt="" class="lg5">
+        <img src="./assets/av7.png" alt="" class="lg6">
+
+      </div>
+
+      <div class="para04">
+        <h3>One Workspace for all team's sessions</h3>
+        <p>Your Butter work space gives you team one place to create rooms,share templates and access recaps. Save on setup mission time. create team wide consistancy </p>
+        <button>Create Workspace</button>
+      </div>
+  </div>    
+</section>  
+  
+<section class="section9">
+    <h3>Loved By Facilitators Everywhere</h3>
+    <div class="profiles">
+      <div class="profile1">
+          <img src="./assets/avtr1.png" alt="">
+          <h4> <br> <br>Rob H Founder</h4>
+          <h5>Butters Legendary Product</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero, facere doloremque quidem iusto architecto atque officia maxime ut sed distinctio non explicabo quae exercitationem quisquam deleniti eligendi quod. At? </p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus cum temporibus, minus inventore labore alias exercitationem atque illo optio, est fugit, praesentium molestiae? Non sed voluptates adipisci fugit suscipit ab.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor quasi, enim commodi, ipsam, reprehenderit deserunt tenetur laborum cupiditate modi natus vero? Officiis optio facilis repudiandae, vitae ad suscipit error!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora suscipit fuga ea praesentium hic pariatur, doloribus aliquid adipisci architecto. Cum quod veritatis, hic reiciendis animi ab culpa placeat cupiditate ullam.</p>
+          
+      </div>
+      <div class="profile2">
+        <img src="./assets/avtr2.png" alt="">
+        <h4> <br> <br>Jessica</h4>
+        <h5>Butters Legendary Product</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero, facere doloremque quidem iusto architecto atque officia maxime ut sed distinctio non explicabo quae exercitationem quisquam deleniti eligendi quod. At? </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus cum temporibus, minus inventore labore alias exercitationem atque illo optio, est fugit, praesentium molestiae? Non sed voluptates adipisci fugit suscipit ab.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor quasi, enim commodi, ipsam, reprehenderit deserunt tenetur laborum cupiditate modi natus vero? Officiis optio facilis repudiandae, vitae ad suscipit error!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora suscipit fuga ea praesentium hic pariatur, doloribus aliquid adipisci architecto. Cum quod veritatis, hic reiciendis animi ab culpa placeat cupiditate ullam.</p>
+        
+      </div>
+      <div class="profile3">
+        <img src="./assets/avtr3.png" alt="">
+        <h4> <br> <br>Natalie</h4>
+        <h5>Butters Legendary Product</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero, facere doloremque quidem iusto architecto atque officia maxime ut sed distinctio non explicabo quae exercitationem quisquam deleniti eligendi quod. At? </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus cum temporibus, minus inventore labore alias exercitationem atque illo optio, est fugit, praesentium molestiae? Non sed voluptates adipisci fugit suscipit ab.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor quasi, enim commodi, ipsam, reprehenderit deserunt tenetur laborum cupiditate modi natus vero? Officiis optio facilis repudiandae, vitae ad suscipit error!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora suscipit fuga ea praesentium hic pariatur, doloribus aliquid adipisci architecto. Cum quod veritatis, hic reiciendis animi ab culpa placeat cupiditate ullam.</p>
+        
+      </div>
+      <div class="profile4">
+        <img src="./assets/avt4.png" alt="">
+        <h4> <br> <br>Mike</h4>
+        <h5>Butters Legendary Product</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero, facere doloremque quidem iusto architecto atque officia maxime ut sed distinctio non explicabo quae exercitationem quisquam deleniti eligendi quod. At? </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus cum temporibus, minus inventore labore alias exercitationem atque illo optio, est fugit, praesentium molestiae? Non sed voluptates adipisci fugit suscipit ab.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor quasi, enim commodi, ipsam, reprehenderit deserunt tenetur laborum cupiditate modi natus vero? Officiis optio facilis repudiandae, vitae ad suscipit error!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora suscipit fuga ea praesentium hic pariatur, doloribus aliquid adipisci architecto. Cum quod veritatis, hic reiciendis animi ab culpa placeat cupiditate ullam.</p>
+        
+      </div>
+      <div class="profile5">
+        <img src="./assets/avt5.png" alt="">
+        <h4> <br> <br>Jay Melone</h4>
+        <h5>Butters Legendary Product</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero, facere doloremque quidem iusto architecto atque officia maxime ut sed distinctio non explicabo quae exercitationem quisquam deleniti eligendi quod. At? </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus cum temporibus, minus inventore labore alias exercitationem atque illo optio, est fugit, praesentium molestiae? Non sed voluptates adipisci fugit suscipit ab.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor quasi, enim commodi, ipsam, reprehenderit deserunt tenetur laborum cupiditate modi natus vero? Officiis optio facilis repudiandae, vitae ad suscipit error!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora suscipit fuga ea praesentium hic pariatur, doloribus aliquid adipisci architecto. Cum quod veritatis, hic reiciendis animi ab culpa placeat cupiditate ullam.</p>
+        
+      </div>
+      <div class="profile6">
+        <img src="./assets/avt6.png" alt="">
+        <h4> <br> <br>Rich webster</h4>
+        <h5>Butters Legendary Product</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero, facere doloremque quidem iusto architecto atque officia maxime ut sed distinctio non explicabo quae exercitationem quisquam deleniti eligendi quod. At? </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus cum temporibus, minus inventore labore alias exercitationem atque illo optio, est fugit, praesentium molestiae? Non sed voluptates adipisci fugit suscipit ab.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor quasi, enim commodi, ipsam, reprehenderit deserunt tenetur laborum cupiditate modi natus vero? Officiis optio facilis repudiandae, vitae ad suscipit error!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora suscipit fuga ea praesentium hic pariatur, doloribus aliquid adipisci architecto. Cum quod veritatis, hic reiciendis animi ab culpa placeat cupiditate ullam.</p>
+        
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="section10">
+
+  <h3>What The FAQ</h3>
+
+  <button class="accordion">Why Should I use Butter </button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, velit. Deserunt magni explicabo nihil sapiente numquam provident voluptatem ipsum doloremque laudantium fugit, esse modi error molestias rerum, molestiae similique labore!</p>
+</div>
+
+<button class="accordion">What types of session is butter famous for</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut veniam unde possimus, reprehenderit, vitae, repellat velit inventore eos dolorem quaerat vel. Nisi aliquam asperiores facilis reprehenderit voluptatum nam consectetur iste.</p>
+</div>
+
+<button class="accordion">Is Butter Free</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corporis dignissimos consequatur libero! Aperiam dignissimos molestias eos est recusandae corporis natus deleniti vel, necessitatibus ipsam ipsa. Magni non pariatur ab!</p>
+</div>
+   
+</section>
+
+<!-- Image Comparision -->
+
+<div class="imageslider">
+  <!-- <h1>Image Slider</h1> -->
+  <button class="slide"><a href="./index2.html">Slider</a></button>
+</div>
+   
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
